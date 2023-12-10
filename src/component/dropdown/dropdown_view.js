@@ -23,6 +23,7 @@ const DropdownView = () => {
         <Dropdown.Item eventKey="Something else">Something else</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
+    <br/>
     <input
       className="form-control"
       type="text"
