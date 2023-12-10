@@ -1,0 +1,10 @@
+ol li >button{
+    margin-left:80%;
+}
+.content input{
+    width: auto;
+    display: inline-block
+}
+.content> button{
+    margin: 0px 0px 5px 10px 
+}

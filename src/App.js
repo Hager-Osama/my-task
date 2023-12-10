@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import CheckBoxView from "./component/check_box/checkbox_veiw";
+import CounterDesign from "./component/counter/counter_design";
+import DropdownView from "./component/dropdown/dropdown_view";
+import Radio_view from "./component/radio/radio_view";
+import TextfeildView from "./component/textfeild/text_field_view";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CounterDesign/>
+      <TextfeildView/>
+      <Radio_view/>
+      <CheckBoxView/>
+      <DropdownView/>
     </div>
   );
 }
